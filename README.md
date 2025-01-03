@@ -1,4 +1,4 @@
-# Welcome to My GitHub Profile
+# Welcome to My Profile
 
 Hi there! 👋 I'm Michael, a Basement dweller from Morewell, Victoria. I have an extensive passion for computers, and Network Engineering. I am always learning new languages, frameworks, or tools. When I'm not inside of my cave rotting away trying to get code to work, I might be rotting away listening to music. If you couldn't tell, I think my favourite artist is Status Quo.
 
