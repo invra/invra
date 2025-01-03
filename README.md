@@ -1,6 +1,6 @@
 # Welcome to My Profile
 
-Hi there! 👋 I'm Michael, a Basement dweller from Morewell, Victoria. I have an extensive passion for computers, and Network Engineering. I am always learning new languages, frameworks, or tools. When I'm not inside of my cave rotting away trying to get code to work, I might be rotting away listening to music. If you couldn't tell, I think my favourite artist is Status Quo.
+Hi there! 👋 I'm Michael, a Basement dweller from Parramatta, Sydney. I have an extensive passion for computers, and Network Engineering. I am always learning new frameworks, or tools. When I'm not inside of my cave rotting away trying to get code to work, I might be rotting away listening to music. I like listening to Loopstation beats, mostly from BizKit, Rythmind, BreZ, and Frosty.
 
 Feel free to explore my [website](https://invra.net) for more about my projects and interests.
 
@@ -19,7 +19,6 @@ And using these systems: <br>
 ![Juniper Networks](https://img.shields.io/badge/Juniper%20Networks-%23577AB4.svg?style=for-the-badge&logo=juniper&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-%23333333.svg?style=for-the-badge&logo=arch-linux&logoColor=white)
 ![Windows 10](https://img.shields.io/badge/Windows%2010-%230079D1.svg?style=for-the-badge&logo=windows&logoColor=white)<br>
-Not so much this one: <br>
 ![macOS](https://img.shields.io/badge/macOS-%23000000.svg?style=for-the-badge&logo=apple&logoColor=white)
 
 ## Setup
