@@ -10,8 +10,8 @@ My main SCM is [my GitLab](https://gitlab.com/invranet). This is where you will 
 
 ### Mirrors
 
-[Codeberg](https://codeberg.org/invranet) - Mirrors of important projects.
-[GitHub](https://github.com/invranet) - An SEO placeholder, but does have some important projects.
+- [Codeberg](https://codeberg.org/invranet) - Mirrors of important projects.
+- [GitHub](https://github.com/invranet) - An SEO placeholder, but does have some important projects.
 
 ## My Domains
 
