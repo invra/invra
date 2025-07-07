@@ -2,6 +2,17 @@
 
 Hello, I'm **Invra**! I have a passion for **Computer Science**, particularly in **Programming** and **Network Engineering**.
 
+## My Source Control Accounts
+
+### Main
+
+My main SCM is [my GitLab](https://gitlab.com/invranet). This is where you will find **EVERYTHING** I do.
+
+### Mirrors
+
+[Codeberg](https://codeberg.org/invranet) - Mirrors of important projects.
+[GitHub](https://github.com/invranet) - An SEO placeholder, but does have some important projects.
+
 ## My Domains
 
 ### Nix
