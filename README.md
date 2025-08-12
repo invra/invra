@@ -11,8 +11,8 @@ My main SCM is [my GitLab](https://gitlab.com/invranet). This is where you will 
 ### Mirrors
 
 - [Codeberg](https://codeberg.org/invranet) - Mirrors of important projects.
-- [GitHub](https://github.com/invranet) - An SEO placeholder, but does have some important projects.
-- [Old GitHub](https://github.com/invra) - An SEO placeholder, but does have some important projects - To replace invranet account.
+- [GitHub](https://github.com/invra) - Mirrors of some important projects.
+- [Dead GitHub](https://github.com/invranet) - Not used what so ever anymore.
 
 
 ## My Domains
