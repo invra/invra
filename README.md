@@ -35,18 +35,18 @@ I dislike GitHub’s contribution system, so I avoid using it.
 <details>
 <summary>🛠 Tools & Frameworks</summary>
 
-**Git** `■■■■■■■■■□` 90%
-**Electron** `■■■■□□□□□□` 40%
-**Next.js** `■■■■■■■■□□` 70%
-**SwiftUI** `■■■■□□□□□□` 40%
+**Git**      `■■■■■■■■■□` 90%<br>
+**Electron** `■■■■□□□□□□` 40%<br>
+**Next.js**  `■■■■■■■■□□` 70%<br>
+**SwiftUI**  `■■■■□□□□□□` 40%
 
 </details>
 
 <details>
 <summary>🖥 Operating Systems</summary>
 
-**NixOS** `■■■■■■■■□□` 80%
-**macOS** `■■■■■■■■■■` 99%
+**NixOS**      `■■■■■■■■□□` 80%<br>
+**macOS**      `■■■■■■■■■■` 99%<br>
 **Arch Linux** `■■■■■■■■□□` 80%
 
 </details>
