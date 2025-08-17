@@ -1,71 +1,88 @@
-# Welcome!
+<h1 align="center">
+  Welcome to my profile!
+</h1>
 
-Hello, I'm **Invra**! I have a passion for **Computer Science**, particularly in **Programming** and **Network Engineering**.
+<p align="center">
+  Haii! I'm <b>Invra</b>, formerly InvraNet.  
+  I'm passionate about <b>Computer Science</b>, especially <b>Programming</b> and <b>Computer Networking</b>.
+</p>
 
-## My Source Control Accounts
+---
 
-### Main
+## 📂 My VCS
+I mainly use **GitLab** — please contribute there if you want to collaborate.  
+I dislike GitHub’s contribution system, so I avoid using it.
 
-My main SCM is [my GitLab](https://gitlab.com/invranet). This is where you will find **EVERYTHING** I do.
+- **GitLab** → [invra](https://gitlab.com/invra) *(main)*
+- **GitHub** → [invra](https://github.com/invra)
+- **Codeberg** → [invra](https://codeberg.org/invra)
 
-### Mirrors
+---
 
-- [Codeberg](https://codeberg.org/invranet) - Mirrors of important projects.
-- [GitHub](https://github.com/invra) - Mirrors of some important projects.
-- [Dead GitHub](https://github.com/invranet) - Not used what so ever anymore.
+<details>
+<summary>💻 Languages</summary>
 
+**Nix** `■■■■■■■■□□` 70%
+**Rust** `■■■■□□□□□□` 30%
+**Zig** `■□□□□□□□□□` 10%
+**C** `■■□□□□□□□□` 20%
+**C#** `■■■■■■■■□□` 70%
+**Swift** `■■■■■□□□□□` 50%
+**TypeScript** `■■■■■■■■■□` 90%
 
-## My Domains
+</details>
 
-### Nix
+<details>
+<summary>🛠 Tools & Frameworks</summary>
 
-I use the Nix ecosystem and have become fairly proficient with the Nix language. Since early 2025, I’ve been confident in my ability to write minimal flakes for the software I use.
+**Git** `■■■■■■■■■□` 90%
+**Electron** `■■■■□□□□□□` 40%
+**Next.js** `■■■■■■■■□□` 70%
+**SwiftUI** `■■■■□□□□□□` 40%
 
-### Web
+</details>
 
-I’ve been doing web development to cure boredom since 2022. I mostly stick with a React-based framework, primarily Next.js nowadays. I’m also familiar with Vanilla and Tailwind CSS.
-No, I don’t know Bulma or Bootstrap *yet*.
+<details>
+<summary>🖥 Operating Systems</summary>
 
-### Linux
+**NixOS** `■■■■■■■■□□` 80%
+**macOS** `■■■■■■■■■■` 99%
+**Arch Linux** `■■■■■■■■□□` 80%
 
-I’ve been using Linux since around 2020 or 2021. I started with Manjaro (a questionable Arch-based distro), moved on to Arch Linux, and later to EndeavourOS. Since January 2025, I’ve happily settled on NixOS.
-I gained a solid understanding of Arch over the years, mostly in the art of fixing a broken system — something Arch users know all too well. From 2022 to 2024, I used vanilla Arch daily, with a brief detour through EndeavourOS when I didn’t feel like setting up Arch manually.
+</details>
 
-### macOS (formerly OS X)
+<details>
+<summary>🖥 Systems</summary>
 
-This was the first OS I ever used. I’ve been using it since I was 5, around 2014. Starting with Yosemite, I stuck with macOS through to Mojave — Apple was back in black, but so were the fumes coming out of the laptop from the heat.
-I’ve had some experience with Catalina and Big Sur, but eventually moved to Linux and grew to dislike macOS.
-Or did I? I’m currently typing this on a machine running macOS Tahoe.
-
-### Windows
-
-I know my way around Windows internally, but using it practically is more of a chore than Linux or macOS.
-Despite its 80% market share, it often feels like it barely works — laggy UI, `explorer.exe` crashes, and arguably the worst developer experience.
-Remember when that one guy at Microsoft kept saying "developers"? Too bad his board members didn’t hear him.
-
-### BSD
-
-Barely know anything about this yet. 🙂
-
-## Systems
-
-### Work Machine
-
-* **MacBook Pro** 14" (Nov 2024)
-
-  * 16GB RAM
-  * M4 Chip
+#### Work
+Macbook Pro 14" (Nov 2024)
+  * Base-model
+  * 16GB Ram
+  * M4
   * 512GB SSD
 
-### Main Workstation Tower (Upgraded)
+#### Main Tower
+Custom built
+  * CPU: Ryzen 5 7600X
+  * RAM: 24GB
+  * GPU: Radeon RX 6700XT
+  * Storage 1: 2TB Crucial P2 M.2 SSD
+  * Storage 2: 8TB Seagate Barracuda HDD
+  * Storage 3: 512GB Western Digital SN570
 
-* **CPU:** Ryzen 5 7600X
-* **RAM:** 24GB
-* **GPU:** Radeon RX 6700XT
-* **Storage 1:** 2TB Crucial P2 M.2 SSD
-* **Storage 2:** 8TB Seagate Barracuda HDD
-* **Storage 3:** 512GB Western Digital SN570
+</details>
 
-## Contact
+---
 
-No clue why I’m putting this here since I barely check it, but if you want to *attempt* to contact me, use <[identificationsucks@gmail.com](mailto:identificationsucks@gmail.com)>.
+## 🔭 Currently Working On
+- [Nix Configuration](https://gitlab.com/invra/nix-conf) - My NixOS and Nix-darwin config template.
+- [Zen Nix Flake 4 All](https://gitlab.com/invra/zen-flake) - A flake to use Zen browser with a simple Home-Manager module.
+
+---
+
+## 📊 Stats (on GitHub)
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=invra&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=invra&layout=compact&theme=tokyonight" />
+</p>
