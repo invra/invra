@@ -1,8 +1,8 @@
-<h1 align="center">
+<h1>
   Welcome to my profile!
 </h1>
 
-<p align="center">
+<p>
   Haii! I'm <b>Invra</b>, formerly <b>InvraNet</b>.  
   I'm passionate about <b>Computer Science</b>, especially <b>Programming</b> and <b>Computer Networking</b>.
 </p>
@@ -82,7 +82,7 @@ Custom built
 
 ## 📊 Stats (on GitHub)
 
-<p align="center">
+<p>
   <img src="https://github-readme-stats.vercel.app/api?username=invra&show_icons=true&theme=tokyonight" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=invra&layout=compact&theme=tokyonight" />
 </p>
