@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Haii! I'm <b>Invra</b>, formerly InvraNet.  
+  Haii! I'm <b>Invra</b>, formerly <b>InvraNet</b>.  
   I'm passionate about <b>Computer Science</b>, especially <b>Programming</b> and <b>Computer Networking</b>.
 </p>
 
