@@ -20,12 +20,15 @@ Strengths
 ---------
 
 Languages:
+
 * Zig, C - systems-level development
 * Rust - get something done simply but with some guardrails
 
 Tooling
+
 * Nix - reproducible builds and dev-env's
 
 Domains:
+
 * Systems programming
 * Audio/DSP
