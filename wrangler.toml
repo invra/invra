@@ -1,0 +1,11 @@
+name = "website-proxy"
+main = "proxy/build/worker/shim.mjs"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "CACHE"
+preview_id = "5b1a5bcda505438eac178938ff501efd"
+id = "115092085d8e4eb6b465c0659a57be26"
+
+[build]
+command = "cd proxy && worker-build --release"

@@ -1,0 +1,10 @@
+[package]
+name = "website-proxy"
+version = "1.0.0"
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+worker.workspace = true

@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = ["proxy"]
+default-members = ["proxy"]
+
+[workspace.package]
+edition = "2024"
+
+[workspace.dependencies]
+worker = "0.7.4"
