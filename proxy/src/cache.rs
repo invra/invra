@@ -4,7 +4,7 @@ const LASTFM_TTL: u32 = 10;
 const GITLAB_TTL: u64 = 300;
 
 pub async fn cached_short<F, Fut>(
-    req: &Request,
+    _req: &Request,
     endpoint: &str,
     ttl: u32,
     fetch_fn: F,
