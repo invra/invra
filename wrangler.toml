@@ -2,10 +2,17 @@ name = "website-proxy"
 main = "proxy/build/worker/shim.mjs"
 compatibility_date = "2024-01-01"
 
+# The SvelteKit site (web/) is built to static files and served as assets;
+# only `/api/*` reaches the Rust worker.
+[assets]
+directory = "web/build"
+not_found_handling = "404-page"
+run_worker_first = ["/api/*"]
+
 [[kv_namespaces]]
 binding = "CACHE"
 preview_id = "5b1a5bcda505438eac178938ff501efd"
 id = "115092085d8e4eb6b465c0659a57be26"
 
 [build]
-command = "cd proxy && worker-build --release"
+command = "cd web && npm ci && npm run build && cd ../proxy && worker-build --release"

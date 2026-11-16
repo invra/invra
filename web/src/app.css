@@ -1,0 +1,405 @@
+/*
+ *  Author: InvraNet <pacstrap@mx.idalon.org>
+ *  Copyright (c) 2025 InvraNet & Contributors
+ *  This is covered under GPLv3-or-later
+ *  Do you know your rights and wrongs?
+ */
+
+@import "tailwindcss";
+
+@theme {
+  --color-header-input-background-hover: #ffffff;
+  --color-custom-gitlab-text: #1db954;
+  --color-custom-gitlab-background: #1db95435;
+  --color-custom-gitlab-background-hover: #1db95425;
+  --color-custom-yt-text: #eb6f92;
+  --color-custom-yt-background: #eb6f9246;
+  --color-custom-yt-background-hover: #be607a46;
+  --color-a-button-background-hover: #eb6f9246;
+  --color-custom-lastfm-text: #c4a7e7;
+  --color-custom-lastfm-background: #ffff;
+  --color-custom-lastfm-background-hover: #eee;
+  --color-preview-rose-pine: #191724;
+  --color-preview-light: #faf4ed;
+  --color-a-button-background: #f6c17746;
+  --color-a-button-text: #c4a7e7;
+  --color-preview-dark: #212024;
+  --color-primary: #000000;
+  --color-primary-header: #7914bd;
+  --color-primary-link: #831dc7;
+  --color-muted: #acacac;
+  --color-card-background: oklch(0.946 0.033 307.174);
+  --color-primary-paragraph: oklch(0.205 0 0);
+  --color-decorator-border-header: #acacac;
+  --color-card-border: oklch(0.37 0.013 285.805);
+  --color-table-content-even: oklch(0.442 0.017 285.786);
+  --color-table-content-odd: oklch(0.342 0.017 285.786);
+  --color-card-secondary: oklch(0.284 0.006 286.033);
+  --color-card-secondary-complementary: oklch(0.304 0.006 286.033);
+  --color-input-interactive-hover: #272222;
+  --color-input-interactive-hover-negative: #2e2e31;
+  --color-demuted: ;
+  --color-codeblock-base: #212124;
+  --color-codeblock-higher: #232325;
+  --color-noteblock-base: #a200ff9d;
+  --color-noteblock-higher: #871ec49d;
+  --color-tags-background: #c4a7e7;
+  --color-tags-text: var(--color-demuted);
+  --color-diiae-background: #ebbcba;
+  --color-diiae-foreground: #ebbcba;
+  --color-track-nowplaying-background: #ebbcba;
+  --color-header-diiae-background: #31748f3d;
+  --color-header-diiae-foreground: #31748f;
+  --color-link-diiae-foreground: #31748f;
+  --color-highest-background: #ccccc;
+  --color-highest-drop: #23213621;
+  --color-card-secondary-alt: #cccccc;
+  --color-input-clickable-background: #2e2d3f;
+  --color-input-clickable-background-hover: #2c2a3b;
+  --color-input-clickable-text: #2e2d3f99;
+  --animate-marquee: marquee 10s linear infinite;
+  --animate-pulse: pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  --animate-spin-in: spin-in 1s ease-in-out both;
+  --animate-fade-up: fade-up 0.8s ease-out both;
+  --animate-rise: rise 0.5s ease-out both;
+
+  @keyframes spin-in {
+    from {
+      transform: translateX(-200px) rotate(-5000deg);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0) rotate(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @keyframes pulse {
+    50% {
+      opacity: 0.5;
+    }
+  }
+}
+
+@layer base {
+  [data-theme="light"] {
+    --color-primary: #faf4ed;
+    --color-card-background: #fffcf7;
+    --color-card-secondary: #fff8f0;
+    --color-card-border: #f3ece4;
+    --color-card-secondary-complementary: #e8e8e8;
+    --color-primary-paragraph: #575279;
+    --color-card-secondary-alt: #000000;
+    --color-muted: #9893a5;
+    --color-demuted: #797593;
+    --color-primary-header: #d7827e;
+    --color-primary-link: #ea9d34;
+    --color-table-content-even: #7975930e;
+    --color-table-content-odd: ;
+    --color-tags-background: #907aa946;
+    --color-tags-text: #907aa9;
+    --color-a-button-background: #b4637a5d;
+    --color-a-button-background-hover: #be607a46;
+    --color-a-button-text: #b4637a;
+    --color-diiae-background: #d7827e3d;
+    --color-diiae-foreground: #d7827e;
+    --color-header-diiae-background: #56949f3d;
+    --color-header-diiae-foreground: #56949f;
+    --color-header-input-background-hover: #00000011;
+    --color-codeblock-base: #f2e9e1;
+    --color-codeblock-higher: #e6e6e6;
+    --color-decorator-border-header: #000000;
+    --color-track-nowplaying-background: #c4a7e770;
+    --color-input-interactive-hover: #dfdad9;
+    --color-input-interactive-hover-negative: #fff8f6e5;
+    --color-input-clickable-background: #56949f33;
+    --color-input-clickable-background-hover: #56949f28;
+    --color-input-clickable-text: #56949f;
+    --color-link-diiae-foreground: #31748f;
+    --color-highest-background: #fffbf7;
+    --color-highest-drop: #fff7f06c;
+    --color-noteblock-base: #faf4ed4d;
+    --color-noteblock-higher: #9ccfd83f;
+    --color-custom-lastfm-text: #b4637a;
+    --color-custom-lastfm-background: #b4637a45;
+    --color-custom-lastfm-background-hover: #b4637a55;
+    --color-custom-yt-text: #b74c6a;
+    --color-custom-yt-background: #a1506745;
+    --color-custom-yt-background-hover: #a04f6655;
+    --color-custom-gitlab-text: #ea9d34;
+    --color-custom-gitlab-background: #ea9d3445;
+    --color-custom-gitlab-background-hover: #ea9d3455;
+  }
+
+  [data-theme="dark"] {
+    --color-primary: #212024;
+    --color-muted: #ada8a8;
+    --color-demuted: #cfcdcd;
+    --color-card-background: #29282c;
+    --color-card-secondary: oklch(0.304 0.006 286.033);
+    --color-card-secondary-complementary: #373538;
+    --color-card-secondary-alt: #cccccc;
+    --color-card-border: oklch(0.37 0.013 285.805);
+    --color-primary-paragraph: oklch(0.871 0.006 286.286);
+    --color-primary-header: #bb99e6;
+    --color-primary-link: #a26aeb;
+    --color-tags-background: #c4a7e733;
+    --color-tags-text: #bb99e6;
+    --color-a-button-background: #eb6f9246;
+    --color-a-button-background-hover: #be607a46;
+    --color-a-button-text: #eb6f92;
+    --color-diiae-background: #dd799533;
+    --color-diiae-foreground: #dd7995;
+    --color-input-interactive-hover: #212124;
+    --color-input-interactive-hover-negative: #353538;
+    --color-input-clickable-background: #9ccfd833;
+    --color-input-clickable-background-hover: #9ccfd828;
+    --color-input-clickable-text: #9ccfd899;
+    --color-track-nowplaying-background: #ac7aee42;
+    --color-table-content-even: #242427;
+    --color-table-content-odd: ;
+    --color-header-input-background-hover: #ffffff11;
+    --color-codeblock-base: #2b2b2e;
+    --color-codeblock-higher: #242427;
+    --color-noteblock-base: #af67d83a;
+    --color-noteblock-higher: #75478d74;
+    --color-highest-background: #2c2c30;
+    --color-highest-drop: #2120249f;
+    --color-custom-lastfm-text: #eb6f92;
+    --color-custom-lastfm-background: #eb6f9235;
+    --color-custom-lastfm-background-hover: #eb6f9225;
+    --color-custom-yt-text: #ff6f92;
+    --color-custom-yt-background: #ff607a35;
+    --color-custom-yt-background-hover: #ff607a25;
+    --color-custom-gitlab-text: #f6c177;
+    --color-custom-gitlab-background: #f6c17735;
+    --color-custom-gitlab-background-hover: #f6c17725;
+  }
+
+  [data-theme="rose-pine"] {
+    --color-primary: #191724;
+    --color-card-background: #1f1d2e;
+    --color-card-secondary: #26233a;
+    --color-card-border: #221f33;
+    --color-card-secondary-complementary: #2f2b4a;
+    --color-card-secondary-alt: #868686;
+    --color-primary-paragraph: #e0def4;
+    --color-muted: #6e6a86;
+    --color-demuted: #aca7c5;
+    --color-primary-header: #ebbcba;
+    --color-primary-link: #f6c177;
+    --color-table-content-even: #6e6a860e;
+    --color-table-content-odd: ;
+    --color-tags-background: #c4a7e746;
+    --color-tags-text: #c4a7e7;
+    --color-a-button-background: #eb6f9246;
+    --color-a-button-background-hover: #be607a46;
+    --color-a-button-text: #eb6f92;
+    --color-diiae-background: #ebbcba3d;
+    --color-diiae-foreground: #ebbcba;
+    --color-header-diiae-background: #31748f3d;
+    --color-header-diiae-foreground: #31748f;
+    --color-header-input-background-hover: #ffffff11;
+    --color-codeblock-base: #26233a;
+    --color-codeblock-higher: #1f1c30;
+    --color-track-nowplaying-background: #c4a7e770;
+    --color-input-interactive-hover: #2e2d3f;
+    --color-input-interactive-hover-negative: #2c2a3b;
+    --color-input-clickable-background: #9ccfd833;
+    --color-input-clickable-background-hover: #9ccfd828;
+    --color-input-clickable-text: #9ccfd899;
+    --color-link-diiae-foreground: #31748f;
+    --color-noteblock-base: #75b5c04d;
+    --color-noteblock-higher: #9ccfd83f;
+    --color-highest-background: #191724;
+    --color-highest-drop: #1d1b2a99;
+    --color-custom-lastfm-text: #eb6f92;
+    --color-custom-lastfm-background: #eb6f9235;
+    --color-custom-lastfm-background-hover: #eb6f9225;
+    --color-custom-yt-text: #ff6f92;
+    --color-custom-yt-background: #ff607a35;
+    --color-custom-yt-background-hover: #ff607a25;
+    --color-custom-gitlab-text: #f6c177;
+    --color-custom-gitlab-background: #f6c17735;
+    --color-custom-gitlab-background-hover: #f6c17725;
+  }
+}
+
+pre {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+pre::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+:root {
+  --hljs-property: #56949f;
+  --hljs-keyword: #b4637a;
+  --hljs-attr: #b4637a;
+  --hljs-name: #286983;
+  --hljs-literal: #797593;
+  --hljs-string: #ea9d34;
+  --hljs-comment: #797593;
+  --hljs-type: #56949f;
+  --hljs-title: #d7827e;
+  --hljs-built-in: #b4637a;
+  --hljs-pre: #575279;
+}
+
+[data-theme="dark"] {
+  --hljs-property: #8ec07c;
+  --hljs-keyword: #fb4934;
+  --hljs-attr: #fabd2f;
+  --hljs-name: #83a598;
+  --hljs-literal: #d3869b;
+  --hljs-string: #b8bb26;
+  --hljs-comment: #928374;
+  --hljs-type: #d3869b;
+  ---hljs-title: ;
+  --hljs-built-in: #fe8019;
+  --hljs-pre: #ebdbb2;
+}
+
+[data-theme="light"] {
+  --hljs-property: #c4a7e7;
+  --hljs-keyword: #286983;
+  --hljs-attr: #56949f;
+  --hljs-name: #d7827e;
+  --hljs-literal: #d3869b;
+  --hljs-string: #f6c177;
+  --hljs-comment: #f6c177;
+  --hljs-type: #d3869b;
+  --hljs-title: #d7827e;
+  --hljs-built-in: #b4637a;
+  --hljs-pre: #575279;
+}
+
+[data-theme="rose-pine"] {
+  --hljs-property: #c4a7e7;
+  --hljs-keyword: #286983;
+  --hljs-attr: #9ccfd8;
+  --hljs-name: #ebbcba;
+  --hljs-literal: #d3869b;
+  --hljs-string: #f6c177;
+  --hljs-comment: #f6c177;
+  --hljs-type: #d3869b;
+  --hljs-title: #ebbcba;
+  --hljs-built-in: #eb6f92;
+  --hljs-pre: #e0def4;
+}
+
+.hljs-property {
+  color: var(--hljs-property);
+}
+
+.hljs-keyword {
+  color: var(--hljs-keyword);
+}
+
+.hljs-attr {
+  color: var(--hljs-attr);
+}
+
+.hljs-name {
+  color: var(--hljs-name);
+}
+
+.hljs-literal {
+  color: var(--hljs-literal);
+}
+
+.hljs-string {
+  color: var(--hljs-string);
+}
+
+.hljs-comment {
+  color: var(--hljs-comment);
+}
+
+.hljs-type {
+  color: var(--hljs-type);
+}
+
+.hljs-built_in {
+  color: var(--hljs-built-in);
+}
+
+.hljs-title {
+  color: var(--hljs-title);
+}
+
+pre {
+  color: var(--hljs-pre);
+}
+
+/* Three-dot loading indicator (replaces react-loading-indicators). */
+.three-dot span {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 0 0.15rem;
+  border-radius: 9999px;
+  background: currentColor;
+  animation: three-dot 1s ease-in-out infinite both;
+}
+.three-dot span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.three-dot span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes three-dot {
+  0%,
+  80%,
+  100% {
+    transform: scale(0.4);
+    opacity: 0.5;
+  }
+  40% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

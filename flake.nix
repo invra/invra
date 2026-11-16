@@ -27,6 +27,7 @@
           wrangler
           toolchain
           worker-build
+          bun
         ];
       };
     });
